@@ -1,14 +1,33 @@
 @charset "utf-8";
 
 body {            
-    background-color: hsla(165,83%,93%, 0.5);
+    background-color: #dddddd;
     /*background-color: rgb(165, 39, 93);
     background-color: #a1d3ef;*/
     color: rgba(0,0,0,1)
 }
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 960px;
+    top: 40px;
+}
+
+header#cabecalho {
+    
 }
 
 /*Formatação de imagens com legendas*/
@@ -51,7 +70,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 465px;
 }
 
 nav#menu li {
