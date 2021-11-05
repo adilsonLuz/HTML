@@ -13,6 +13,7 @@ iframe#frame-spec {
 }
 
 iframe#frame-spec::-webkit-scrollbar {
-    display: block;
+    display: none;
+    
 }
 
